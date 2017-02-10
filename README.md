@@ -1,4 +1,4 @@
-# pass-export
+# pass_export
 **WORK IN PROGRESS**
 
 This will (hopefully) be a little tool to export passwords from [pass](http://passwordstore.org) to other password managers.
