@@ -8,9 +8,34 @@
         ],
         "requires": {},
         "hash": {
-            "sha256": "cb65967bdf3a7372749ce6144be4ee63f412aeeac624342fda3a2b58b1c43c15"
+            "sha256": "b29bebbeafc2ef44599581359e074c5f9eeb94988b775795631cc2dd0d90accd"
         }
     },
-    "default": {},
+    "default": {
+        "pypass": {
+            "hash": "sha256:6552222e7f59281dee3c56c8ee367fb926ba9d8e64c3da77c76837a419d72de8",
+            "version": "==0.2.0"
+        },
+        "ptyprocess": {
+            "hash": "sha256:464cb76f7a7122743dd25507650db89cd447c51f38e4671602b3eaa2e38e05ae",
+            "version": "==0.5.1"
+        },
+        "pexpect": {
+            "hash": "sha256:f853b52afaf3b064d29854771e2db509ef80392509bde2dd7a6ecf2dfc3f0018",
+            "version": "==4.2.1"
+        },
+        "colorama": {
+            "hash": "sha256:a4c0f5bc358a62849653471e309dcc991223cf86abafbec17cd8f41327279e89",
+            "version": "==0.3.7"
+        },
+        "enum34": {
+            "hash": "sha256:644837f692e5f550741432dd3f223bbb9852018674981b1664e5dc339387588a",
+            "version": "==1.1.6"
+        },
+        "click": {
+            "hash": "sha256:29f99fc6125fbc931b758dc053b3114e55c77a6e4c6c3a2674a2dc986016381d",
+            "version": "==6.7"
+        }
+    },
     "develop": {}
 }
