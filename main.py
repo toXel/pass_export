@@ -35,7 +35,12 @@ def parse_host(pass_text):
 
 def parse_notes(pass_text):
     lines = pass_text.splitlines(keepends=True)
-    regx = re.compile('(?i:user|username|login|pass|password|host|hostname): (.+)')
+
+    # Remove first line if it is the password
+    if not re.search('(?:password|pass): (.+)', pass_text):
+        lines = lines[1:]
+
+    regx = re.compile('(?i:user|username|login|pass|password|host|hostname|url): (.+)')
     lines = [line for line in lines if not regx.match(line)]
     return ''.join(lines)
 
