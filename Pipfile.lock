@@ -8,7 +8,7 @@
         ],
         "requires": {},
         "hash": {
-            "sha256": "b29bebbeafc2ef44599581359e074c5f9eeb94988b775795631cc2dd0d90accd"
+            "sha256": "f32e66973095cbd4aee2edcad69999b9edcc776f1bce0f3298979a757d333145"
         }
     },
     "default": {
@@ -37,5 +37,34 @@
             "version": "==6.7"
         }
     },
-    "develop": {}
+    "develop": {
+        "pylint": {
+            "hash": "sha256:c15405aa2a8b982c059ad7e76effe7c7531490af08890a2fcb0c64c9e25b70f9",
+            "version": "==1.6.5"
+        },
+        "wrapt": {
+            "hash": "sha256:4ea17e814e39883c6cf1bb9b0835d316b2f69f0f0882ffe7dad1ede66ba82c73",
+            "version": "==1.10.8"
+        },
+        "astroid": {
+            "hash": "sha256:944400d94e45865af150fb98700b27b788ddee5ad17c77d0725f67ac271f7a10",
+            "version": "==1.4.9"
+        },
+        "mccabe": {
+            "hash": "sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42",
+            "version": "==0.6.1"
+        },
+        "lazy-object-proxy": {
+            "hash": "sha256:ddd4cf1c74279c349cb7b9c54a2efa5105854f57de5f2d35829ee93631564268",
+            "version": "==1.2.2"
+        },
+        "isort": {
+            "hash": "sha256:a0c38c1c5e4c70ea1141daa80c740372ad94351e92e9e07da1cd86ce65653dc4",
+            "version": "==4.2.5"
+        },
+        "six": {
+            "hash": "sha256:0ff78c403d9bccf5a425a6d31a12aa6b47f1c21ca4dc2573a7e2f32a97335eb1",
+            "version": "==1.10.0"
+        }
+    }
 }
