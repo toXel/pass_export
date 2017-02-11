@@ -7,6 +7,7 @@ from pypass import EntryType, PasswordStore
 
 def parse(pass_entry, store):
     name = path.basename(pass_entry)
+    group = path.dirname(pass_entry)
 
     # Use the parsers from pypass
     username = store.get_decypted_password(pass_entry, EntryType.username)
@@ -17,7 +18,7 @@ def parse(pass_entry, store):
     url = parse_url(entry_text)
     hostname = parse_host(entry_text)
     notes = parse_notes(entry_text)
-    return [name, username, password, hostname, url, notes]
+    return [group, name, username, password, hostname, url, notes]
 
 
 def parse_url(pass_text):
